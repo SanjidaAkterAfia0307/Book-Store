@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9b8d4db14a.js" crossorigin="anonymous"></script>
+ 
+    <style>
+    
+      .outline:focus{
+        box-shadow: none;
+      }
+      @media screen and (max-width:1250px){
+        .form-img{
+          display: none;
+        }
+        .form-con{
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-sm shadow sticky-top bg-dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img  src="images/124378.jpg" class="rounded-circle col-12"  style="width:60px ; height: 60px;" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light" href="#"data-bs-toggle="dropdown">
+                  Contact Us
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-light" href="#">E-mail</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Facebook</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Twitter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+      </nav>
+
+      <main>
+        <section>
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade " >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" ></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" ></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active " data-bs-interval="100">
+                <img src="images/banner/671822c2f63dd5f65d8fd15c9710420b.jpg" class="d-block w-100" style="height:80vh ;" alt="...">
+                <div class="carousel-caption  text-start">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="200">
+                <img src="images/banner/43177044-academic-background-book-.jpg" class="d-block w-100" style="height:80vh ;" alt="...">
+                <div class="carousel-caption  text-start">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="300">
+                <img src="images/banner/photo-1548048026-5a1a941d93d3.jpeg" class="d-block w-100" style="height:80vh ;" alt="...">
+                <div class="carousel-caption  text-start">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="400">
+                <img src="images/banner/photo-1481627834876-b7833e8f5570.jpeg" class="d-block w-100"  style="height:80vh ;"alt="...">
+                <div class="carousel-caption  text-start">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni atque vel? Magni repellendus ipsum dolorem labore velit quidem praesentium quibusdam mollitia error consequatur numquam officiis, eaque et adipisci dolores similique voluptatibus? Quaerat voluptas similique impedit culpa itaque commodi aperiam aut harum. Aliquam debitis soluta quis neque ab, error ex.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+
+          <section>
+            <div class="container my-5">
+              <div class="row row-cols-lg-4 row-cols-sm-1 g-5 row-cols-md-2">
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/41Ww-lUSAL._SX332_BO1204203200_.jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/71l9pCV99FL.jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md  btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/9781480441187.jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card ">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/everything-everything-nicola-yoon.jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/images.jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/Into_the_Water (1).jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/medium_b50af175ec3484802a74f419b43ffc8f59ace7bf.jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-card">
+                  <div class="card border border-0 shadow-lg" style="width: 20rem;height: 500px;">
+                    <img src="images/the-book-thief (1).jpg" class="card-img-top" style="height:250px ;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title h2">Card title</h5>
+                      <p class="card-text h4 text-dark py-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-md btn-btn-light btn-outline-dark">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <section class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <div class="accordion-header " id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <img src="images/author/1063732.jpg" class="rounded-circle img-fluid" style="width:5rem ;" alt="">
+                 <h4 class="p-3">Poula Hawkins</h4>
+                </button>
+              </div>
+              <div id="collapseOne" class="accordion-collapse collapse show"  data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <img src="images/author/408567071_th.jpg" class="rounded-circle img-fluid" style="width:5rem ;" alt="">
+                 <h4 class="p-3">Coolen Hoover</h4>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <img src="images/author/Dickens_Gurney_head.jpg" class="rounded-circle img-fluid" style="width:5rem ; height: 5rem;" alt="">
+                 <h4 class="p-3">Charles Dickens</h4>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <nav >
+            <ul class="pagination justify-content-center my-5">
+              <li class="page-item ">
+                <a class="page-link text-muted" href="#" >
+                  <span >&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link text-muted" href="#">1</a></li>
+              <li class="page-item"><a class="page-link text-muted" href="#">2</a></li>
+              <li class="page-item"><a class="page-link text-muted" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link text-muted" href="#" >
+                  <span>&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section class="container form-con  p-0 d-flex flex-lg-row  justify-content-center my-5 rounded-5">
+          
+          <form class="border rounded-start w-75 p-4 w-50 text-black-50 row" style="background-color:#898C95;">
+            <h1 class="text-white-50">Contact Us</h1>
+            <div class=" col-6">
+              <label for="exampleInputfname" class="form-label">First Name</label>
+              <input type="text" class="form-control outline" style="border:none ; background-color:#898C95 ;  border-bottom: 2px solid rgb(61, 61, 61);" id="exampleInputfname" aria-describedby="emailHelp">
+              
+            </div>
+            <div class=" col-6">
+              <label for="exampleInputlname" class="form-label">Last Name</label>
+              <input type="text" class="form-control outline" id="exampleInputlname" style="border:none ; background-color:#898C95 ;  border-bottom: 2px solid rgb(61, 61, 61);" aria-describedby="emailHelp">
+      
+            </div>
+            <div class="">
+              <label for="exampleInputaddress" class="form-label">Address</label>
+              <input type="text" class="form-control outline" id="exampleInputaddress" style="border:none ; background-color:#898C95 ;  border-bottom: 2px solid rgb(61, 61, 61);" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control outline" id="exampleInputEmail1" style="border:none ; background-color:#898C95 ;  border-bottom: 2px solid rgb(61, 61, 61);" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control outline" style="border:none ; background-color:#898C95 ;  border-bottom: 2px solid rgb(61, 61, 61);" id="exampleInputPassword1">
+            </div>
+            <div class=" form-check my-">
+              <input type="radio" class="form-radio-input" id="exampleCheck1">
+              <label class="form-radio-label" for="exampleCheck1">Agree to Terms and Condition</label>
+            </div>
+            <div class="my-btn">
+              <button type="submit" class="btn btn-dark text-white">Submit</button>
+            </div>
+          </form>
+          <div class="form-img w-50">
+            <img class="img-fluid rounded-end" style="height:800px ;" src="images/tea-time-3240766__340.jpg" alt="">
+          </div>
+        </section>
+      </main>
+
+<footer >
+  <div class=" bg-dark  d-flex justify-content-around p-4 align-items-center" style="height:100px ; font-size: 25px;">
+    <div >
+   <span class="text-muted p-3"> 2022 Company, Inc</span>
+    </div>
+    <ul class="nav  ilst-unstyled d-flex">
+      <li><a class="text-muted m-2" href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+      <li><a class="text-muted m-2" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a class="text-muted m-2 " href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </div>
+
+</footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

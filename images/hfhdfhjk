@@ -1,0 +1,86 @@
+<div class="container my-5">
+            <div class="row g-4">
+             <div class="my-card col-3 "   >
+              <div class="card shadow-lg" style="width: 20rem;">
+                <img src="images/roh.jpg"  style="height:300px;" class="card-img-top img-fluid " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title h1">Card title</h5>
+                  <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                </div>
+              </div>
+             </div>
+             <div class="my-card col-3">
+              <div class="card shadow-lg" style="width:20rem ;">
+                <img src="images/everything-everything-nicola-yoon.jpg" style="height:300px;"class="card-img-top img-fluid  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title h1">Card title</h5>
+                  <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                </div>
+              </div>
+             </div>
+              <div class="my-card col-3">
+                <div class="card shadow-lg" style="width: 20rem;">
+                  <img src="images/images.jpg" style="height:300px;" class=" card-img-top img-fluid " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title h1">Card title</h5>
+                    <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="my-card col-3">
+                <div class="card shadow-lg" style="width: 20rem;">
+                  <img src="images/Into_the_Water (1).jpg" style="height:300px;" class=" card-img-top img-fluid " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title h1">Card title</h5>
+                    <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="my-card col-3">
+                <div class="card shadow-lg" style="width: 20rem;">
+                  <img src="images/medium_b50af175ec3484802a74f419b43ffc8f59ace7bf.jpg" style="height:300px;"  class="card-img-top img-fluid  " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title h1">Card title</h5>
+                    <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="my-card col-3">
+                <div class="card shadow-lg" style="width: 20rem;">
+                  <img src="images/the-book-thief (1).jpg" style="height:300px;" class="card-img-top img-fluid  " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title h1">Card title</h5>
+                    <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="my-card col-3">
+                <div class="card shadow-lg"style="width: 20rem;" >
+                  <img src="images/71l9pCV99FL.jpg" style="height:300px;" class="card-img-top img-fluid  " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title h1">Card title</h5>
+                    <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="my-card col-3">
+                <div class="card shadow-lg"style="width: 20rem;" >
+                  <img src="images/9781480441187.jpg" style="height:300px;" class="card-img-top img-fluid  " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title h1">Card title</h5>
+                    <p class="card-text h4 text-dark py-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-lg btn-dark">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
